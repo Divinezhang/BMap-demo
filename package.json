@@ -32,7 +32,11 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {},
+    "globals": {
+      "BMap":true,
+      "BMAP_ANIMATION_BOUNCE":true
+    }
   },
   "browserslist": [
     "> 1%",
